@@ -1,0 +1,5 @@
+{
+    "gptPilot.setupLocalDevEnv": false,
+    "gptPilot.useRemoteWs": true,
+    "gptPilot.isRemoteWs": true
+}

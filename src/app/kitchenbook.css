@@ -1,0 +1,40 @@
+.cookbook-swiper {
+  padding: 50px 0;
+}
+
+.cookbook-page {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  height: 800px;
+  margin: 0 auto;
+  background-image: url('/chef-jeremy.jpg'),
+    linear-gradient(45deg, rgba(255,255,255,.2) 25%, transparent 25%, transparent 75%, rgba(255,255,255,.2) 75%),
+    linear-gradient(45deg, rgba(255,255,255,.2) 25%, transparent 25%, transparent 75%, rgba(255,255,255,.2) 75%);
+  background-size: cover, 4px 4px, 4px 4px;
+  background-position: center, 0 0, 2px 2px;
+  background-repeat: no-repeat;
+  transition: transform 0.3s ease;
+  transform-style: preserve-3d;
+  perspective: 1200px;
+}
+
+.cookbook-page::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0) 100%);
+  pointer-events: none;
+}
+
+/* Paper texture effect */
+.cookbook-page {
+  background-image: 
+    linear-gradient(45deg, rgba(255,255,255,.2) 25%, transparent 25%, transparent 75%, rgba(255,255,255,.2) 75%),
+    linear-gradient(45deg, rgba(255,255,255,.2) 25%, transparent 25%, transparent 75%, rgba(255,255,255,.2) 75%);
+  background-size: 4px 4px;
+  background-position: 0 0, 2px 2px;
+}

@@ -1,0 +1,8 @@
+📸 Add your professional photo here
+
+Please name the file: chef-jeremy.jpg  
+Place it in this folder: /public
+
+This image will be used for the portfolio site — hero section or About Me.
+
+Make sure it's a JPG (not PNG or HEIC), and ideally under 1MB for faster loading.
